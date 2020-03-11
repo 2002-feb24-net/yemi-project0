@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-namespace Custmer
+namespace RamenDeliverySystem
 {
 
     class Customer
@@ -32,22 +32,29 @@ namespace Custmer
             {
                 phonenumber = value;
             }
+
+
         }
+                
 
+        public  void printcustmer()
+        { 
+    
+    
+  List<Customer> newcustmer = new List<Customer>();
 
-        static void Main()
-        {
-
-            List<Customer> newcustmer = new List<Customer>();
-
-
-
+        
             newcustmer.Add(new Customer { Name = "crank arm", PhoneNumber = 14625347 });
             newcustmer.Add(new Customer { Name = "chain ring", PhoneNumber = 1332423 });
             newcustmer.Add(new Customer { Name = "regular seat", PhoneNumber = 143423 });
             newcustmer.Add(new Customer { Name = "banana seat", PhoneNumber = 14324 });
             newcustmer.Add(new Customer { Name = "cassette", PhoneNumber = 1532412 });
             newcustmer.Add(new Customer { Name = "shift lever", PhoneNumber = 1632423 });
+
+          
+
+
+           
 
             foreach (var rsult in newcustmer)
             {

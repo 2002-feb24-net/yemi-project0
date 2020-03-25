@@ -35,7 +35,7 @@ namespace RamenDeliverySystem
             //    {
             //        Console.WriteLine(userinput.Key + "  " + userinput.Value);
             //    }
-            Console.WriteLine("choose you food");
+            Console.WriteLine("enter as number");
             price = Console.ReadLine();
             if (dict.TryGetValue(price, out result))
             {
